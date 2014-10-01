@@ -109,7 +109,6 @@ rosrun hrpsys samplerobot-impedance-controller.py
  and [IDL API](http://fkanehiro.github.io/hrpsys-base/d9/d8b/interfaceOpenHRP_1_1ImpedanceControllerService.html).  
  
 # samplerobot-auto-balancer.py
- <div align="center"><p><img src="http://wiki.ros.org/rtmros_common/Tutorials/WorkingWithEusLisp?action=AttachFile&do=get&target=abc.png" alt="AutoBalancer" title="AutoBalancer" width=300/></p></div>  
 1. Launch hrpsys-simulator
 
  ```
@@ -120,6 +119,7 @@ rtmlaunch hrpsys samplerobot.launch
  ```
 rosrun hrpsys samplerobot-auto-balancer.py
  ```
+ <div align="center"><p><img src="http://wiki.ros.org/rtmros_common/Tutorials/WorkingWithEusLisp?action=AttachFile&do=get&target=abc.png" alt="AutoBalancer" title="AutoBalancer" width=300/></p></div>  
  This example imports 
  [hrpsys-base samplerobot_auto_balancer.py](https://github.com/fkanehiro/hrpsys-base/blob/master/sample/SampleRobot/samplerobot_auto_balancer.py.in).  
 3. RTC explanation  
