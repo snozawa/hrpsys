@@ -162,6 +162,7 @@ rosrun hrpsys samplerobot-stabilizer.py
  and [IDL API](http://fkanehiro.github.io/hrpsys-base/d5/dc8/interfaceOpenHRP_1_1StabilizerService.html).  
 
 # samplerobot-terrain-walk.py
+0. These examples are related with AutoBalancer RTC.  
 1. Example for slope walking  
  <div align="center"><p><img src="http://wiki.ros.org/rtmros_common/Tutorials/WorkingWithEusLisp?action=AttachFile&do=get&target=slope.png" alt="Slope" title="Slope" width=300/></p></div>  
  1-1. Launch hrpsys-simulator
