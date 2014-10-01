@@ -128,17 +128,6 @@ rosrun hrpsys samplerobot-auto-balancer.py
  Please see 
  [Overview](http://fkanehiro.github.io/hrpsys-base/d1/d15/AutoBalancer.html) 
  and [IDL API](http://fkanehiro.github.io/hrpsys-base/d4/d5b/interfaceOpenHRP_1_1AutoBalancerService.html).  
- - COG control
- reference XY COG position,
- reference Z base position, and reference base orientation.  
- In the above example, these values are tracked:
-
-    ```
-    #   5. change base height, base rot x, base rot y, and upper body while AutoBalancer mode
-    hcf.abc_svc.startAutoBalancer(["rleg", "lleg"]);
-    testPoseList(pose_list, initial_pose)
-    hcf.abc_svc.stopAutoBalancer();
-    ```
 
 
 # samplerobot-stabilizer.py
